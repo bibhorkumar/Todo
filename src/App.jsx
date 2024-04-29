@@ -53,7 +53,7 @@ const App = () => {
 
 
   return (
-    <div className='w-1/2 h-screen mx-auto my-20 bg-cyan-200 p-4 text-left rounded-lg overflow-y-scroll'>
+    <div className='w-1/2 h-screen mx-auto my-20 bg-sky-300 p-4 text-left rounded-lg overflow-y-scroll'>
         <Input addTask={addTask} />
         <TaskList taskList={tasks} deleteTask={deleteTask} updateTask={updateTask}/>
     </div>
