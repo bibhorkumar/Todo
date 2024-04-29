@@ -18,6 +18,7 @@ const Input = ({addTask}) => {
     
   return (
     <>
+        <h1 className='text-center text-lg'>Yo Task🤘</h1>
         <h1 className='text-lg'>Enter a Task:</h1>
         <div className='flex justify-between my-4'>
           <input className='rounded-lg px-2' type='text' placeholder='type here...' name='taskInput' value={inputVal} onChange={handleChange}/>
